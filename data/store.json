@@ -1,0 +1,1152 @@
+{
+  "adminPassword": "6920441899",
+  "config": {
+    "header": {
+      "siteName": "تلخيص المهندس",
+      "subtitle": "المساعد الدراسي الذكي",
+      "badgeText": "الملف عليك والتلخيص علينا"
+    },
+    "hero": {
+      "verse": "﴿ يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ ﴾",
+      "description": "ارفع مستنداتك أو صور المحاضرات والملخصات لتحليلها فوراً، وتلخيصها، واستخراج بنك أسئلة نموذجي دون قيود"
+    },
+    "upload": {
+      "mainText": "اسحب الملف أو الصورة إلى هنا، أو انقر للاختيار",
+      "subText": "يدعم جميع أنواع الملفات: PDF و PowerPoint (PPTX) و Word (DOCX) والصور (PNG, JPG) عبر OCR",
+      "extractBtnText": "استخراج المحتوى وبدء التحليل",
+      "summaryBtnText": "إعداد التلخيص الذكي",
+      "questionBtnText": "توليد بنك الأسئلة"
+    },
+    "footer": {
+      "ownerName": "المهندس عبدالملك",
+      "requireAuth": false
+    },
+    "ads": {
+      "enabled": true,
+      "adSenseId": "ca-pub-XXXXXXXXXXXXXXXX"
+    },
+    "colors": {
+      "gold": "#c89b3c",
+      "goldSoft": "#f3df9b",
+      "ember": "#6e1a24",
+      "ink": "#0e0d0b",
+      "card": "#161411"
+    }
+  },
+  "students": [
+    {
+      "id": "std_1",
+      "name": "عبدالملك",
+      "email": "almalk1233217@gmail.com",
+      "registrationDate": "2026/9/6",
+      "lastActive": "11:47:55 ص 2026/9/6",
+      "operationsCount": 2
+    },
+    {
+      "id": "std_2",
+      "name": "osama",
+      "email": "alfghaosama3@gmail.com",
+      "registrationDate": "2026/9/6",
+      "lastActive": "04:41:47 ص 2026/9/6",
+      "operationsCount": 0
+    },
+    {
+      "id": "std_3",
+      "name": "مؤيد الشوابكه",
+      "email": "moayedalshoabkh@gmail.com",
+      "registrationDate": "2026/9/6",
+      "lastActive": "03:14:53 ص 2026/9/6",
+      "operationsCount": 0
+    }
+  ],
+  "summaries": [
+    {
+      "id": "log_mtqdsy4q",
+      "studentName": "طالب زائر",
+      "studentEmail": "visitor@student.com",
+      "documentName": "أذكار الصباح والمساء صفحة واحدة.pdf",
+      "fileType": "application/pdf",
+      "date": "2026/9/7 ١:٢٦:٤٤ ص",
+      "timestamp": 1788733604042,
+      "excerpt": " 🌟 التلخيص الأكاديمي الذكي الفائق: أذكار الصباح والمساء صفحة واحدة\n\n 💡 1. زبدة الموضوع بكلمتين (TL;DR)\n> الخلاصة الفورية: يركز هذا الملف على تفكيك ا...",
+      "summary": "### 🌟 التلخيص الأكاديمي الذكي الفائق: أذكار الصباح والمساء صفحة واحدة\n\n### 💡 1. زبدة الموضوع بكلمتين (TL;DR)\n> **الخلاصة الفورية:** يركز هذا الملف على تفكيك المفاهيم والمبادئ الأساسية للمادة بأسلوب مباشر، بهدف تمكين الطالب من استيعاب صلب الدرس في دقائق وحصد الدرجات الكاملة في أسئلة الامتحان.\n\n---\n\n### 🧠 2. شرح المفاهيم الجوهرية بالتبسيط والتشبيهات الذكية\n1. **المفهوم المحوري (Core Concept):** يمكنك تخيل هذه الفكرة كالمحرك الأساسي للسيارة؛ فإذا فهمت طريقة عمله وعلاقته بباقي الأجزاء، ستتمكن من حل أي مسألة أو سؤال مهما غيّر الدكتور في صياغته.\n2. **آلية العمل والتطبيق (Mechanism & Workflow):** كيف تنتقل الخطوات النظرية إلى واقع عملي وتطبيقي ملموس ومباشر.\n3. **العلاقات والترابط (Core Dependencies):** كيفية تأثير كل مدخل على النتيجة النهائية وتفادي الالتباس بين السبب والنتيجة.\n\n---\n\n### 📑 3. المحاور والخطوات التفصيلية (خطوة بخطوة)\n- **المحور الأول (الأساس النظري):** مراجعة المصطلحات والتعريفات التخصصية الواردة في بطاقات الاستذكار (Flashcards).\n- **المحور الثاني (التحليل المقارن):** التمييز بين الحالات المختلفة وتحديد الفروقات الدقيقة بين المتغيرات.\n- **المحور الثالث (حل المسائل والتطبيق):** القوانين والخطوات المتسلسلة المعتمدة في الإجابة النموذجية.\n\n---\n\n### ⚠️ 4. تريكات امتحانية وأخطاء شائعة احذر منها (Exam Traps)\n> ⚠️ **احذر هذا الفخ في الامتحان:** كثير من الطلاب يخلطون بين التعريفات المتقاربة أو يعكسون اتجاه التأثير. ركز دائماً على الكلمات المفتاحية (Keywords) الدقيقة لكل مفهوم.\n\n---\n\n### 🚀 5. كبسولة المذاكرة الذهبية (مراجعة الـ 3 دقائق ليلة الامتحان)\n1. **القاعدة الأولى:** لا تحفظ دون فهم؛ استوعب المنطق خلف الفكرة أولاً.\n2. **الاسترجاع النشط:** حل بنك الأسئلة الـ 5 المرفق فوراً بعد القراءة للتأكد من ثبات المعلومات في الذاكرة طويلة المدى.\n3. **المصطلحات الحاسمة:** استخدم بطاقات الاستذكار لمراجعة الكلمات المفتاحية والرموز قبل دخول قاعة الامتحان مباشرة.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "ما هو المحور الأساسي الذي يركز عليه مستند (أذكار الصباح والمساء صفحة واحدة.pdf)؟",
+          "options": [
+            "تحليل المفاهيم الأكاديمية وتطبيقاتها العلمية بشكل منهجي",
+            "سرد معلومات تاريخية غير مرتبطة بالموضوع",
+            "عرض إعلانات تجارية بدون سياق",
+            "دراسة موضوعات جانبية غير تخصصية"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "المستند يركز بشكل جوهري على البنية المنهجية للمادة العلمية وتطبيقها لتعميق فهم الطالب."
+        },
+        {
+          "id": 2,
+          "question": "كيف يمكن للطالب استغلال هذا الملخص لتحقيق أعلى الدرجات؟",
+          "options": [
+            "قراءة سريعة لمرة واحدة فقط دون مراجعة",
+            "الدمج بين قراءة التلخيص وحل بنك الأسئلة التفاعلي مع مراجعة البطاقات",
+            "تجاهل الأسئلة والتركيز على الحفظ الصم",
+            "الانتظار حتى ليلة الامتحان فقط"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "التكرار المتباعد والاختبار الذاتي الفوري يعتبران الاستراتيجية الأكثر كفاءة وفق أبحاث التعلم."
+        },
+        {
+          "id": 3,
+          "question": "ما هي الفائدة الكبرى للبطاقات التعليمية (Flashcards)؟",
+          "options": [
+            "تفعيل الاسترجاع النشط للذاكرة وترسيخ المصطلحات",
+            "زيادة وقت المذاكرة بلا فائدة",
+            "استبدال المحاضرات الأصلية بالكامل",
+            "تقليل التركيز"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "البطاقات تنشط الذاكرة وتسهل مراجعة النقاط الصعبة والتعريفات في دقائق وجيزة."
+        },
+        {
+          "id": 4,
+          "question": "ما الذي يميز معالجة الوثائق في منصة تلخيص المهندس؟",
+          "options": [
+            "سرعة التحليل واستخراج الأفكار وبنوك الأسئلة بأعلى درجات الأمان وحماية البيانات",
+            "الحاجة لبرامج إضافية معقدة",
+            "عدم دعم ملفات الـ PDF أو الصور",
+            "كشف بيانات المستخدمين للعامة"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "تعتمد المنصة على معالجة سحابية آمنة تحمي المفاتيح والملفات وتوفر مخرجات دراسية متكاملة فوراً."
+        },
+        {
+          "id": 5,
+          "question": "ما الخطوة التالية بعد إتمام مراجعة التلخيص وبنك الأسئلة؟",
+          "options": [
+            "استخدام نافذة المحادثة الذكية لطرح أي استفسارات متبقية على المحاضرة",
+            "إغلاق الموقع ونسيان المادة",
+            "إعادة رفع نفس الملف بدون قراءة",
+            "عدم التحقق من الإجابات"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "تتيح المحادثة الذكية الاستفسار عن أي جزئية غامضة والحصول على إجابات تفصيلية فورية."
+        }
+      ],
+      "flashcards": [
+        {
+          "id": 1,
+          "question": "ما هو المفهوم الجوهري في هذا المستند؟",
+          "answer": "المبدأ الأساسي الذي يربط بين النظرية العلمية والتطبيق العملي للمحتوى المقدم.",
+          "tag": "مفهوم أساسي"
+        },
+        {
+          "id": 2,
+          "question": "ما هي طريقة الاستذكار الفعال الموصى بها؟",
+          "answer": "الدمج بين الاسترجاع النشط (Active Recall) وحل الأسئلة المتعددة والتكرار المتباعد.",
+          "tag": "طرق دراسية"
+        },
+        {
+          "id": 3,
+          "question": "ما أهمية فهم المصطلحات التخصصية؟",
+          "answer": "بناء أرضية صلبة للإجابة عن الأسئلة المقالية والخيارات الدقيقة في الامتحانات.",
+          "tag": "مصطلحات"
+        },
+        {
+          "id": 4,
+          "question": "كيف يتم قياس مدى استيعاب المحاضرة؟",
+          "answer": "عبر تحقيق نسبة إجابات صحيحة تتجاوز 80% في بنك الأسئلة التفاعلي من المحاولة الأولى.",
+          "tag": "تقييم ذاتي"
+        },
+        {
+          "id": 5,
+          "question": "ما هي ميزة المحادثة الذكية مع المستند؟",
+          "answer": "الحصول على توضيحات فورية ومبسطة لأي فقرة أو معادلة لم تتضح للطالب أثناء القراءة.",
+          "tag": "مساعد ذكي"
+        }
+      ]
+    },
+    {
+      "id": "log_mtqdrc6q",
+      "studentName": "طالب زائر",
+      "studentEmail": "visitor@student.com",
+      "documentName": "دليل تطوير لعبة قتال فيزيائية مضحكة أونلاين.pdf",
+      "fileType": "application/pdf",
+      "date": "2026/9/7 ١:٢٥:٢٨ ص",
+      "timestamp": 1788733528946,
+      "excerpt": " 🌟 التلخيص الأكاديمي الذكي الفائق: دليل تطوير لعبة قتال فيزيائية مضحكة أونلاين\n\n 💡 1. زبدة الموضوع بكلمتين (TL;DR)\n> الخلاصة الفورية: يركز هذا الملف...",
+      "summary": "### 🌟 التلخيص الأكاديمي الذكي الفائق: دليل تطوير لعبة قتال فيزيائية مضحكة أونلاين\n\n### 💡 1. زبدة الموضوع بكلمتين (TL;DR)\n> **الخلاصة الفورية:** يركز هذا الملف على تفكيك المفاهيم والمبادئ الأساسية للمادة بأسلوب مباشر، بهدف تمكين الطالب من استيعاب صلب الدرس في دقائق وحصد الدرجات الكاملة في أسئلة الامتحان.\n\n---\n\n### 🧠 2. شرح المفاهيم الجوهرية بالتبسيط والتشبيهات الذكية\n1. **المفهوم المحوري (Core Concept):** يمكنك تخيل هذه الفكرة كالمحرك الأساسي للسيارة؛ فإذا فهمت طريقة عمله وعلاقته بباقي الأجزاء، ستتمكن من حل أي مسألة أو سؤال مهما غيّر الدكتور في صياغته.\n2. **آلية العمل والتطبيق (Mechanism & Workflow):** كيف تنتقل الخطوات النظرية إلى واقع عملي وتطبيقي ملموس ومباشر.\n3. **العلاقات والترابط (Core Dependencies):** كيفية تأثير كل مدخل على النتيجة النهائية وتفادي الالتباس بين السبب والنتيجة.\n\n---\n\n### 📑 3. المحاور والخطوات التفصيلية (خطوة بخطوة)\n- **المحور الأول (الأساس النظري):** مراجعة المصطلحات والتعريفات التخصصية الواردة في بطاقات الاستذكار (Flashcards).\n- **المحور الثاني (التحليل المقارن):** التمييز بين الحالات المختلفة وتحديد الفروقات الدقيقة بين المتغيرات.\n- **المحور الثالث (حل المسائل والتطبيق):** القوانين والخطوات المتسلسلة المعتمدة في الإجابة النموذجية.\n\n---\n\n### ⚠️ 4. تريكات امتحانية وأخطاء شائعة احذر منها (Exam Traps)\n> ⚠️ **احذر هذا الفخ في الامتحان:** كثير من الطلاب يخلطون بين التعريفات المتقاربة أو يعكسون اتجاه التأثير. ركز دائماً على الكلمات المفتاحية (Keywords) الدقيقة لكل مفهوم.\n\n---\n\n### 🚀 5. كبسولة المذاكرة الذهبية (مراجعة الـ 3 دقائق ليلة الامتحان)\n1. **القاعدة الأولى:** لا تحفظ دون فهم؛ استوعب المنطق خلف الفكرة أولاً.\n2. **الاسترجاع النشط:** حل بنك الأسئلة الـ 5 المرفق فوراً بعد القراءة للتأكد من ثبات المعلومات في الذاكرة طويلة المدى.\n3. **المصطلحات الحاسمة:** استخدم بطاقات الاستذكار لمراجعة الكلمات المفتاحية والرموز قبل دخول قاعة الامتحان مباشرة.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "ما هو المحور الأساسي الذي يركز عليه مستند (دليل تطوير لعبة قتال فيزيائية مضحكة أونلاين.pdf)؟",
+          "options": [
+            "تحليل المفاهيم الأكاديمية وتطبيقاتها العلمية بشكل منهجي",
+            "سرد معلومات تاريخية غير مرتبطة بالموضوع",
+            "عرض إعلانات تجارية بدون سياق",
+            "دراسة موضوعات جانبية غير تخصصية"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "المستند يركز بشكل جوهري على البنية المنهجية للمادة العلمية وتطبيقها لتعميق فهم الطالب."
+        },
+        {
+          "id": 2,
+          "question": "كيف يمكن للطالب استغلال هذا الملخص لتحقيق أعلى الدرجات؟",
+          "options": [
+            "قراءة سريعة لمرة واحدة فقط دون مراجعة",
+            "الدمج بين قراءة التلخيص وحل بنك الأسئلة التفاعلي مع مراجعة البطاقات",
+            "تجاهل الأسئلة والتركيز على الحفظ الصم",
+            "الانتظار حتى ليلة الامتحان فقط"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "التكرار المتباعد والاختبار الذاتي الفوري يعتبران الاستراتيجية الأكثر كفاءة وفق أبحاث التعلم."
+        },
+        {
+          "id": 3,
+          "question": "ما هي الفائدة الكبرى للبطاقات التعليمية (Flashcards)؟",
+          "options": [
+            "تفعيل الاسترجاع النشط للذاكرة وترسيخ المصطلحات",
+            "زيادة وقت المذاكرة بلا فائدة",
+            "استبدال المحاضرات الأصلية بالكامل",
+            "تقليل التركيز"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "البطاقات تنشط الذاكرة وتسهل مراجعة النقاط الصعبة والتعريفات في دقائق وجيزة."
+        },
+        {
+          "id": 4,
+          "question": "ما الذي يميز معالجة الوثائق في منصة تلخيص المهندس؟",
+          "options": [
+            "سرعة التحليل واستخراج الأفكار وبنوك الأسئلة بأعلى درجات الأمان وحماية البيانات",
+            "الحاجة لبرامج إضافية معقدة",
+            "عدم دعم ملفات الـ PDF أو الصور",
+            "كشف بيانات المستخدمين للعامة"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "تعتمد المنصة على معالجة سحابية آمنة تحمي المفاتيح والملفات وتوفر مخرجات دراسية متكاملة فوراً."
+        },
+        {
+          "id": 5,
+          "question": "ما الخطوة التالية بعد إتمام مراجعة التلخيص وبنك الأسئلة؟",
+          "options": [
+            "استخدام نافذة المحادثة الذكية لطرح أي استفسارات متبقية على المحاضرة",
+            "إغلاق الموقع ونسيان المادة",
+            "إعادة رفع نفس الملف بدون قراءة",
+            "عدم التحقق من الإجابات"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "تتيح المحادثة الذكية الاستفسار عن أي جزئية غامضة والحصول على إجابات تفصيلية فورية."
+        }
+      ],
+      "flashcards": [
+        {
+          "id": 1,
+          "question": "ما هو المفهوم الجوهري في هذا المستند؟",
+          "answer": "المبدأ الأساسي الذي يربط بين النظرية العلمية والتطبيق العملي للمحتوى المقدم.",
+          "tag": "مفهوم أساسي"
+        },
+        {
+          "id": 2,
+          "question": "ما هي طريقة الاستذكار الفعال الموصى بها؟",
+          "answer": "الدمج بين الاسترجاع النشط (Active Recall) وحل الأسئلة المتعددة والتكرار المتباعد.",
+          "tag": "طرق دراسية"
+        },
+        {
+          "id": 3,
+          "question": "ما أهمية فهم المصطلحات التخصصية؟",
+          "answer": "بناء أرضية صلبة للإجابة عن الأسئلة المقالية والخيارات الدقيقة في الامتحانات.",
+          "tag": "مصطلحات"
+        },
+        {
+          "id": 4,
+          "question": "كيف يتم قياس مدى استيعاب المحاضرة؟",
+          "answer": "عبر تحقيق نسبة إجابات صحيحة تتجاوز 80% في بنك الأسئلة التفاعلي من المحاولة الأولى.",
+          "tag": "تقييم ذاتي"
+        },
+        {
+          "id": 5,
+          "question": "ما هي ميزة المحادثة الذكية مع المستند؟",
+          "answer": "الحصول على توضيحات فورية ومبسطة لأي فقرة أو معادلة لم تتضح للطالب أثناء القراءة.",
+          "tag": "مساعد ذكي"
+        }
+      ]
+    },
+    {
+      "id": "log_mtq1ohq2",
+      "studentName": "طالب زائر",
+      "studentEmail": "visitor@student.com",
+      "documentName": "بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf",
+      "fileType": "application/pdf",
+      "date": "2026/9/6 ٧:٤٧:٢٠ م",
+      "timestamp": 1788713240762,
+      "excerpt": " 🌟 Smart Academic Student Summary: بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة\n\n 💡 1. Core Essence in Brief (TL;DR)\n> The Big Picture: This document breaks ...",
+      "summary": "### 🌟 Smart Academic Student Summary: بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة\n\n### 💡 1. Core Essence in Brief (TL;DR)\n> **The Big Picture:** This document breaks down the fundamental mechanisms and principles of the topic into clear, actionable study units. It equips students with the exact concepts tested on university and professional exams.\n\n---\n\n### 🧠 2. Core Concepts Explained Simply (With Real-world Analogies)\n1. **The Fundamental Concept:** Think of this foundational theory as the \"blueprint\" of the entire system—everything else builds directly on top of it.\n2. **Applied Mechanisms (System Architecture):** How theoretical definitions operate in practical scenarios without unnecessary friction or ambiguity.\n3. **Core Interconnections:** Recognizing how input factors directly influence output results and performance indicators.\n\n---\n\n### 📑 3. Step-by-Step Breakdown & Pillars\n- **Step 1: Baseline Understanding:** Master the technical vocabulary and essential axioms highlighted in the Flashcards.\n- **Step 2: Methodological Analysis:** Contrast related approaches, identify trade-offs, and map out each phase systematically.\n- **Step 3: Verification & Execution:** Validate conclusions using active problem solving and quantitative evaluation.\n\n---\n\n### ⚠️ 4. Common Exam Traps & Watch-Out Points\n> ⚠️ **Watch Out for Trick Questions:** Examiners frequently invert causal relationships or confuse closely related terms. Always distinguish primary causes from secondary side effects when answering multiple choice questions.\n\n---\n\n### 🚀 5. Golden 3-Minute Quick Exam Review\n1. **Anchor Rule:** Every theoretical framework has specific boundary conditions—memorize when it applies and when it does not.\n2. **Key Terminology:** Active recall of terms yields up to 80% higher retention compared to passive reading.\n3. **Self-Testing:** Work through the 5 practice MCQs and review the explanation for each question to confirm complete mastery.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary academic focus of (بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf)?",
+          "options": [
+            "Systematic analysis of core academic concepts and their practical applications",
+            "A collection of unrelated historical trivia",
+            "Commercial advertisements without context",
+            "Off-topic exploratory notes"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "The document fundamentally establishes a rigorous theoretical framework with actionable practical insights."
+        },
+        {
+          "id": 2,
+          "question": "How can a student best utilize this summary to achieve top grades?",
+          "options": [
+            "A single passive read-through right before the exam",
+            "Combining structured summary review with active recall via the question bank and flashcards",
+            "Ignoring practice questions and relying on rote memorization",
+            "Only reviewing on the morning of the exam"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Spaced repetition combined with active retrieval practice is scientifically proven to yield maximum academic retention."
+        },
+        {
+          "id": 3,
+          "question": "What is the core benefit of the interactive Flashcards?",
+          "options": [
+            "Stimulating active memory recall and reinforcing definitions in minutes",
+            "Unnecessarily increasing study time",
+            "Replacing the full textbook entirely",
+            "Decreasing concentration"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Flashcards target active recall and strengthen neural pathways for fast term retrieval."
+        },
+        {
+          "id": 4,
+          "question": "Why is server-side AI processing critical for academic platforms?",
+          "options": [
+            "It protects API credentials and user document data within a secure cloud sandbox",
+            "It requires complex local software installations",
+            "It prevents document analysis",
+            "It slows down user access"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Server-side architecture prevents credential leakage in browser DevTools and ensures secure data handling."
+        },
+        {
+          "id": 5,
+          "question": "What is the recommended next step after completing the quiz?",
+          "options": [
+            "Use the interactive AI Chat assistant to ask follow-up questions on difficult sections",
+            "Close the browser and forget the material",
+            "Re-upload the document repeatedly without reading",
+            "Ignore incorrect answer explanations"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "The smart chat assistant provides immediate clarification on nuanced concepts."
+        }
+      ],
+      "flashcards": [
+        {
+          "id": 1,
+          "question": "What is the primary core concept in this document?",
+          "answer": "The fundamental principle connecting theoretical foundations to practical implementations.",
+          "tag": "Core Concept"
+        },
+        {
+          "id": 2,
+          "question": "What is Active Recall in study methodology?",
+          "answer": "A learning technique where learners retrieve information from memory rather than passively reviewing notes.",
+          "tag": "Study Strategy"
+        },
+        {
+          "id": 3,
+          "question": "What is Spaced Repetition?",
+          "answer": "An evidence-based learning technique that reviews material at increasing intervals over time.",
+          "tag": "Memory Science"
+        },
+        {
+          "id": 4,
+          "question": "Why are precise technical definitions crucial?",
+          "answer": "They form the bedrock for resolving complex multiple-choice and conceptual exam problems.",
+          "tag": "Exam Mastery"
+        },
+        {
+          "id": 5,
+          "question": "How should students resolve ambiguous topics?",
+          "answer": "Engage with the interactive smart assistant for step-by-step contextual explanations.",
+          "tag": "AI Assistant"
+        }
+      ]
+    },
+    {
+      "id": "log_mtq1oh5o",
+      "studentName": "طالب زائر",
+      "studentEmail": "visitor@student.com",
+      "documentName": "بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf",
+      "fileType": "application/pdf",
+      "date": "2026/9/6 ٧:٤٧:٢٠ م",
+      "timestamp": 1788713240028,
+      "excerpt": " 🌟 Smart Academic Student Summary: بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة\n\n 💡 1. Core Essence in Brief (TL;DR)\n> The Big Picture: This document breaks ...",
+      "summary": "### 🌟 Smart Academic Student Summary: بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة\n\n### 💡 1. Core Essence in Brief (TL;DR)\n> **The Big Picture:** This document breaks down the fundamental mechanisms and principles of the topic into clear, actionable study units. It equips students with the exact concepts tested on university and professional exams.\n\n---\n\n### 🧠 2. Core Concepts Explained Simply (With Real-world Analogies)\n1. **The Fundamental Concept:** Think of this foundational theory as the \"blueprint\" of the entire system—everything else builds directly on top of it.\n2. **Applied Mechanisms (System Architecture):** How theoretical definitions operate in practical scenarios without unnecessary friction or ambiguity.\n3. **Core Interconnections:** Recognizing how input factors directly influence output results and performance indicators.\n\n---\n\n### 📑 3. Step-by-Step Breakdown & Pillars\n- **Step 1: Baseline Understanding:** Master the technical vocabulary and essential axioms highlighted in the Flashcards.\n- **Step 2: Methodological Analysis:** Contrast related approaches, identify trade-offs, and map out each phase systematically.\n- **Step 3: Verification & Execution:** Validate conclusions using active problem solving and quantitative evaluation.\n\n---\n\n### ⚠️ 4. Common Exam Traps & Watch-Out Points\n> ⚠️ **Watch Out for Trick Questions:** Examiners frequently invert causal relationships or confuse closely related terms. Always distinguish primary causes from secondary side effects when answering multiple choice questions.\n\n---\n\n### 🚀 5. Golden 3-Minute Quick Exam Review\n1. **Anchor Rule:** Every theoretical framework has specific boundary conditions—memorize when it applies and when it does not.\n2. **Key Terminology:** Active recall of terms yields up to 80% higher retention compared to passive reading.\n3. **Self-Testing:** Work through the 5 practice MCQs and review the explanation for each question to confirm complete mastery.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary academic focus of (بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf)?",
+          "options": [
+            "Systematic analysis of core academic concepts and their practical applications",
+            "A collection of unrelated historical trivia",
+            "Commercial advertisements without context",
+            "Off-topic exploratory notes"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "The document fundamentally establishes a rigorous theoretical framework with actionable practical insights."
+        },
+        {
+          "id": 2,
+          "question": "How can a student best utilize this summary to achieve top grades?",
+          "options": [
+            "A single passive read-through right before the exam",
+            "Combining structured summary review with active recall via the question bank and flashcards",
+            "Ignoring practice questions and relying on rote memorization",
+            "Only reviewing on the morning of the exam"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Spaced repetition combined with active retrieval practice is scientifically proven to yield maximum academic retention."
+        },
+        {
+          "id": 3,
+          "question": "What is the core benefit of the interactive Flashcards?",
+          "options": [
+            "Stimulating active memory recall and reinforcing definitions in minutes",
+            "Unnecessarily increasing study time",
+            "Replacing the full textbook entirely",
+            "Decreasing concentration"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Flashcards target active recall and strengthen neural pathways for fast term retrieval."
+        },
+        {
+          "id": 4,
+          "question": "Why is server-side AI processing critical for academic platforms?",
+          "options": [
+            "It protects API credentials and user document data within a secure cloud sandbox",
+            "It requires complex local software installations",
+            "It prevents document analysis",
+            "It slows down user access"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Server-side architecture prevents credential leakage in browser DevTools and ensures secure data handling."
+        },
+        {
+          "id": 5,
+          "question": "What is the recommended next step after completing the quiz?",
+          "options": [
+            "Use the interactive AI Chat assistant to ask follow-up questions on difficult sections",
+            "Close the browser and forget the material",
+            "Re-upload the document repeatedly without reading",
+            "Ignore incorrect answer explanations"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "The smart chat assistant provides immediate clarification on nuanced concepts."
+        }
+      ],
+      "flashcards": [
+        {
+          "id": 1,
+          "question": "What is the primary core concept in this document?",
+          "answer": "The fundamental principle connecting theoretical foundations to practical implementations.",
+          "tag": "Core Concept"
+        },
+        {
+          "id": 2,
+          "question": "What is Active Recall in study methodology?",
+          "answer": "A learning technique where learners retrieve information from memory rather than passively reviewing notes.",
+          "tag": "Study Strategy"
+        },
+        {
+          "id": 3,
+          "question": "What is Spaced Repetition?",
+          "answer": "An evidence-based learning technique that reviews material at increasing intervals over time.",
+          "tag": "Memory Science"
+        },
+        {
+          "id": 4,
+          "question": "Why are precise technical definitions crucial?",
+          "answer": "They form the bedrock for resolving complex multiple-choice and conceptual exam problems.",
+          "tag": "Exam Mastery"
+        },
+        {
+          "id": 5,
+          "question": "How should students resolve ambiguous topics?",
+          "answer": "Engage with the interactive smart assistant for step-by-step contextual explanations.",
+          "tag": "AI Assistant"
+        }
+      ]
+    },
+    {
+      "id": "log_mtq1ogr2",
+      "studentName": "طالب زائر",
+      "studentEmail": "visitor@student.com",
+      "documentName": "بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf",
+      "fileType": "application/pdf",
+      "date": "2026/9/6 ٧:٤٧:١٩ م",
+      "timestamp": 1788713239502,
+      "excerpt": " 🌟 التلخيص الأكاديمي الذكي الفائق: بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة\n\n 💡 1. زبدة الموضوع بكلمتين (TL;DR)\n> الخلاصة الفورية: يركز هذا الملف على تفك...",
+      "summary": "### 🌟 التلخيص الأكاديمي الذكي الفائق: بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة\n\n### 💡 1. زبدة الموضوع بكلمتين (TL;DR)\n> **الخلاصة الفورية:** يركز هذا الملف على تفكيك المفاهيم والمبادئ الأساسية للمادة بأسلوب مباشر، بهدف تمكين الطالب من استيعاب صلب الدرس في دقائق وحصد الدرجات الكاملة في أسئلة الامتحان.\n\n---\n\n### 🧠 2. شرح المفاهيم الجوهرية بالتبسيط والتشبيهات الذكية\n1. **المفهوم المحوري (Core Concept):** يمكنك تخيل هذه الفكرة كالمحرك الأساسي للسيارة؛ فإذا فهمت طريقة عمله وعلاقته بباقي الأجزاء، ستتمكن من حل أي مسألة أو سؤال مهما غيّر الدكتور في صياغته.\n2. **آلية العمل والتطبيق (Mechanism & Workflow):** كيف تنتقل الخطوات النظرية إلى واقع عملي وتطبيقي ملموس ومباشر.\n3. **العلاقات والترابط (Core Dependencies):** كيفية تأثير كل مدخل على النتيجة النهائية وتفادي الالتباس بين السبب والنتيجة.\n\n---\n\n### 📑 3. المحاور والخطوات التفصيلية (خطوة بخطوة)\n- **المحور الأول (الأساس النظري):** مراجعة المصطلحات والتعريفات التخصصية الواردة في بطاقات الاستذكار (Flashcards).\n- **المحور الثاني (التحليل المقارن):** التمييز بين الحالات المختلفة وتحديد الفروقات الدقيقة بين المتغيرات.\n- **المحور الثالث (حل المسائل والتطبيق):** القوانين والخطوات المتسلسلة المعتمدة في الإجابة النموذجية.\n\n---\n\n### ⚠️ 4. تريكات امتحانية وأخطاء شائعة احذر منها (Exam Traps)\n> ⚠️ **احذر هذا الفخ في الامتحان:** كثير من الطلاب يخلطون بين التعريفات المتقاربة أو يعكسون اتجاه التأثير. ركز دائماً على الكلمات المفتاحية (Keywords) الدقيقة لكل مفهوم.\n\n---\n\n### 🚀 5. كبسولة المذاكرة الذهبية (مراجعة الـ 3 دقائق ليلة الامتحان)\n1. **القاعدة الأولى:** لا تحفظ دون فهم؛ استوعب المنطق خلف الفكرة أولاً.\n2. **الاسترجاع النشط:** حل بنك الأسئلة الـ 5 المرفق فوراً بعد القراءة للتأكد من ثبات المعلومات في الذاكرة طويلة المدى.\n3. **المصطلحات الحاسمة:** استخدم بطاقات الاستذكار لمراجعة الكلمات المفتاحية والرموز قبل دخول قاعة الامتحان مباشرة.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "ما هو المحور الأساسي الذي يركز عليه مستند (بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf)؟",
+          "options": [
+            "تحليل المفاهيم الأكاديمية وتطبيقاتها العلمية بشكل منهجي",
+            "سرد معلومات تاريخية غير مرتبطة بالموضوع",
+            "عرض إعلانات تجارية بدون سياق",
+            "دراسة موضوعات جانبية غير تخصصية"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "المستند يركز بشكل جوهري على البنية المنهجية للمادة العلمية وتطبيقها لتعميق فهم الطالب."
+        },
+        {
+          "id": 2,
+          "question": "كيف يمكن للطالب استغلال هذا الملخص لتحقيق أعلى الدرجات؟",
+          "options": [
+            "قراءة سريعة لمرة واحدة فقط دون مراجعة",
+            "الدمج بين قراءة التلخيص وحل بنك الأسئلة التفاعلي مع مراجعة البطاقات",
+            "تجاهل الأسئلة والتركيز على الحفظ الصم",
+            "الانتظار حتى ليلة الامتحان فقط"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "التكرار المتباعد والاختبار الذاتي الفوري يعتبران الاستراتيجية الأكثر كفاءة وفق أبحاث التعلم."
+        },
+        {
+          "id": 3,
+          "question": "ما هي الفائدة الكبرى للبطاقات التعليمية (Flashcards)؟",
+          "options": [
+            "تفعيل الاسترجاع النشط للذاكرة وترسيخ المصطلحات",
+            "زيادة وقت المذاكرة بلا فائدة",
+            "استبدال المحاضرات الأصلية بالكامل",
+            "تقليل التركيز"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "البطاقات تنشط الذاكرة وتسهل مراجعة النقاط الصعبة والتعريفات في دقائق وجيزة."
+        },
+        {
+          "id": 4,
+          "question": "ما الذي يميز معالجة الوثائق في منصة تلخيص المهندس؟",
+          "options": [
+            "سرعة التحليل واستخراج الأفكار وبنوك الأسئلة بأعلى درجات الأمان وحماية البيانات",
+            "الحاجة لبرامج إضافية معقدة",
+            "عدم دعم ملفات الـ PDF أو الصور",
+            "كشف بيانات المستخدمين للعامة"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "تعتمد المنصة على معالجة سحابية آمنة تحمي المفاتيح والملفات وتوفر مخرجات دراسية متكاملة فوراً."
+        },
+        {
+          "id": 5,
+          "question": "ما الخطوة التالية بعد إتمام مراجعة التلخيص وبنك الأسئلة؟",
+          "options": [
+            "استخدام نافذة المحادثة الذكية لطرح أي استفسارات متبقية على المحاضرة",
+            "إغلاق الموقع ونسيان المادة",
+            "إعادة رفع نفس الملف بدون قراءة",
+            "عدم التحقق من الإجابات"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "تتيح المحادثة الذكية الاستفسار عن أي جزئية غامضة والحصول على إجابات تفصيلية فورية."
+        }
+      ],
+      "flashcards": [
+        {
+          "id": 1,
+          "question": "ما هو المفهوم الجوهري في هذا المستند؟",
+          "answer": "المبدأ الأساسي الذي يربط بين النظرية العلمية والتطبيق العملي للمحتوى المقدم.",
+          "tag": "مفهوم أساسي"
+        },
+        {
+          "id": 2,
+          "question": "ما هي طريقة الاستذكار الفعال الموصى بها؟",
+          "answer": "الدمج بين الاسترجاع النشط (Active Recall) وحل الأسئلة المتعددة والتكرار المتباعد.",
+          "tag": "طرق دراسية"
+        },
+        {
+          "id": 3,
+          "question": "ما أهمية فهم المصطلحات التخصصية؟",
+          "answer": "بناء أرضية صلبة للإجابة عن الأسئلة المقالية والخيارات الدقيقة في الامتحانات.",
+          "tag": "مصطلحات"
+        },
+        {
+          "id": 4,
+          "question": "كيف يتم قياس مدى استيعاب المحاضرة؟",
+          "answer": "عبر تحقيق نسبة إجابات صحيحة تتجاوز 80% في بنك الأسئلة التفاعلي من المحاولة الأولى.",
+          "tag": "تقييم ذاتي"
+        },
+        {
+          "id": 5,
+          "question": "ما هي ميزة المحادثة الذكية مع المستند؟",
+          "answer": "الحصول على توضيحات فورية ومبسطة لأي فقرة أو معادلة لم تتضح للطالب أثناء القراءة.",
+          "tag": "مساعد ذكي"
+        }
+      ]
+    },
+    {
+      "id": "log_mtq1ofbt",
+      "studentName": "طالب زائر",
+      "studentEmail": "visitor@student.com",
+      "documentName": "بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf",
+      "fileType": "application/pdf",
+      "date": "2026/9/6 ٧:٤٧:١٧ م",
+      "timestamp": 1788713237657,
+      "excerpt": " 🌟 Smart Academic Student Summary: بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة\n\n 💡 1. Core Essence in Brief (TL;DR)\n> The Big Picture: This document breaks ...",
+      "summary": "### 🌟 Smart Academic Student Summary: بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة\n\n### 💡 1. Core Essence in Brief (TL;DR)\n> **The Big Picture:** This document breaks down the fundamental mechanisms and principles of the topic into clear, actionable study units. It equips students with the exact concepts tested on university and professional exams.\n\n---\n\n### 🧠 2. Core Concepts Explained Simply (With Real-world Analogies)\n1. **The Fundamental Concept:** Think of this foundational theory as the \"blueprint\" of the entire system—everything else builds directly on top of it.\n2. **Applied Mechanisms (System Architecture):** How theoretical definitions operate in practical scenarios without unnecessary friction or ambiguity.\n3. **Core Interconnections:** Recognizing how input factors directly influence output results and performance indicators.\n\n---\n\n### 📑 3. Step-by-Step Breakdown & Pillars\n- **Step 1: Baseline Understanding:** Master the technical vocabulary and essential axioms highlighted in the Flashcards.\n- **Step 2: Methodological Analysis:** Contrast related approaches, identify trade-offs, and map out each phase systematically.\n- **Step 3: Verification & Execution:** Validate conclusions using active problem solving and quantitative evaluation.\n\n---\n\n### ⚠️ 4. Common Exam Traps & Watch-Out Points\n> ⚠️ **Watch Out for Trick Questions:** Examiners frequently invert causal relationships or confuse closely related terms. Always distinguish primary causes from secondary side effects when answering multiple choice questions.\n\n---\n\n### 🚀 5. Golden 3-Minute Quick Exam Review\n1. **Anchor Rule:** Every theoretical framework has specific boundary conditions—memorize when it applies and when it does not.\n2. **Key Terminology:** Active recall of terms yields up to 80% higher retention compared to passive reading.\n3. **Self-Testing:** Work through the 5 practice MCQs and review the explanation for each question to confirm complete mastery.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary academic focus of (بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf)?",
+          "options": [
+            "Systematic analysis of core academic concepts and their practical applications",
+            "A collection of unrelated historical trivia",
+            "Commercial advertisements without context",
+            "Off-topic exploratory notes"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "The document fundamentally establishes a rigorous theoretical framework with actionable practical insights."
+        },
+        {
+          "id": 2,
+          "question": "How can a student best utilize this summary to achieve top grades?",
+          "options": [
+            "A single passive read-through right before the exam",
+            "Combining structured summary review with active recall via the question bank and flashcards",
+            "Ignoring practice questions and relying on rote memorization",
+            "Only reviewing on the morning of the exam"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Spaced repetition combined with active retrieval practice is scientifically proven to yield maximum academic retention."
+        },
+        {
+          "id": 3,
+          "question": "What is the core benefit of the interactive Flashcards?",
+          "options": [
+            "Stimulating active memory recall and reinforcing definitions in minutes",
+            "Unnecessarily increasing study time",
+            "Replacing the full textbook entirely",
+            "Decreasing concentration"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Flashcards target active recall and strengthen neural pathways for fast term retrieval."
+        },
+        {
+          "id": 4,
+          "question": "Why is server-side AI processing critical for academic platforms?",
+          "options": [
+            "It protects API credentials and user document data within a secure cloud sandbox",
+            "It requires complex local software installations",
+            "It prevents document analysis",
+            "It slows down user access"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Server-side architecture prevents credential leakage in browser DevTools and ensures secure data handling."
+        },
+        {
+          "id": 5,
+          "question": "What is the recommended next step after completing the quiz?",
+          "options": [
+            "Use the interactive AI Chat assistant to ask follow-up questions on difficult sections",
+            "Close the browser and forget the material",
+            "Re-upload the document repeatedly without reading",
+            "Ignore incorrect answer explanations"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "The smart chat assistant provides immediate clarification on nuanced concepts."
+        }
+      ],
+      "flashcards": [
+        {
+          "id": 1,
+          "question": "What is the primary core concept in this document?",
+          "answer": "The fundamental principle connecting theoretical foundations to practical implementations.",
+          "tag": "Core Concept"
+        },
+        {
+          "id": 2,
+          "question": "What is Active Recall in study methodology?",
+          "answer": "A learning technique where learners retrieve information from memory rather than passively reviewing notes.",
+          "tag": "Study Strategy"
+        },
+        {
+          "id": 3,
+          "question": "What is Spaced Repetition?",
+          "answer": "An evidence-based learning technique that reviews material at increasing intervals over time.",
+          "tag": "Memory Science"
+        },
+        {
+          "id": 4,
+          "question": "Why are precise technical definitions crucial?",
+          "answer": "They form the bedrock for resolving complex multiple-choice and conceptual exam problems.",
+          "tag": "Exam Mastery"
+        },
+        {
+          "id": 5,
+          "question": "How should students resolve ambiguous topics?",
+          "answer": "Engage with the interactive smart assistant for step-by-step contextual explanations.",
+          "tag": "AI Assistant"
+        }
+      ]
+    },
+    {
+      "id": "log_mtq1o7om",
+      "studentName": "طالب زائر",
+      "studentEmail": "visitor@student.com",
+      "documentName": "بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf",
+      "fileType": "application/pdf",
+      "date": "2026/9/6 ٧:٤٧:٠٧ م",
+      "timestamp": 1788713227750,
+      "excerpt": " 🌟 Smart Academic Student Summary: بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة\n\n 💡 1. Core Essence in Brief (TL;DR)\n> The Big Picture: This document breaks ...",
+      "summary": "### 🌟 Smart Academic Student Summary: بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة\n\n### 💡 1. Core Essence in Brief (TL;DR)\n> **The Big Picture:** This document breaks down the fundamental mechanisms and principles of the topic into clear, actionable study units. It equips students with the exact concepts tested on university and professional exams.\n\n---\n\n### 🧠 2. Core Concepts Explained Simply (With Real-world Analogies)\n1. **The Fundamental Concept:** Think of this foundational theory as the \"blueprint\" of the entire system—everything else builds directly on top of it.\n2. **Applied Mechanisms (System Architecture):** How theoretical definitions operate in practical scenarios without unnecessary friction or ambiguity.\n3. **Core Interconnections:** Recognizing how input factors directly influence output results and performance indicators.\n\n---\n\n### 📑 3. Step-by-Step Breakdown & Pillars\n- **Step 1: Baseline Understanding:** Master the technical vocabulary and essential axioms highlighted in the Flashcards.\n- **Step 2: Methodological Analysis:** Contrast related approaches, identify trade-offs, and map out each phase systematically.\n- **Step 3: Verification & Execution:** Validate conclusions using active problem solving and quantitative evaluation.\n\n---\n\n### ⚠️ 4. Common Exam Traps & Watch-Out Points\n> ⚠️ **Watch Out for Trick Questions:** Examiners frequently invert causal relationships or confuse closely related terms. Always distinguish primary causes from secondary side effects when answering multiple choice questions.\n\n---\n\n### 🚀 5. Golden 3-Minute Quick Exam Review\n1. **Anchor Rule:** Every theoretical framework has specific boundary conditions—memorize when it applies and when it does not.\n2. **Key Terminology:** Active recall of terms yields up to 80% higher retention compared to passive reading.\n3. **Self-Testing:** Work through the 5 practice MCQs and review the explanation for each question to confirm complete mastery.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary academic focus of (بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf)?",
+          "options": [
+            "Systematic analysis of core academic concepts and their practical applications",
+            "A collection of unrelated historical trivia",
+            "Commercial advertisements without context",
+            "Off-topic exploratory notes"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "The document fundamentally establishes a rigorous theoretical framework with actionable practical insights."
+        },
+        {
+          "id": 2,
+          "question": "How can a student best utilize this summary to achieve top grades?",
+          "options": [
+            "A single passive read-through right before the exam",
+            "Combining structured summary review with active recall via the question bank and flashcards",
+            "Ignoring practice questions and relying on rote memorization",
+            "Only reviewing on the morning of the exam"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Spaced repetition combined with active retrieval practice is scientifically proven to yield maximum academic retention."
+        },
+        {
+          "id": 3,
+          "question": "What is the core benefit of the interactive Flashcards?",
+          "options": [
+            "Stimulating active memory recall and reinforcing definitions in minutes",
+            "Unnecessarily increasing study time",
+            "Replacing the full textbook entirely",
+            "Decreasing concentration"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Flashcards target active recall and strengthen neural pathways for fast term retrieval."
+        },
+        {
+          "id": 4,
+          "question": "Why is server-side AI processing critical for academic platforms?",
+          "options": [
+            "It protects API credentials and user document data within a secure cloud sandbox",
+            "It requires complex local software installations",
+            "It prevents document analysis",
+            "It slows down user access"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Server-side architecture prevents credential leakage in browser DevTools and ensures secure data handling."
+        },
+        {
+          "id": 5,
+          "question": "What is the recommended next step after completing the quiz?",
+          "options": [
+            "Use the interactive AI Chat assistant to ask follow-up questions on difficult sections",
+            "Close the browser and forget the material",
+            "Re-upload the document repeatedly without reading",
+            "Ignore incorrect answer explanations"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "The smart chat assistant provides immediate clarification on nuanced concepts."
+        }
+      ],
+      "flashcards": [
+        {
+          "id": 1,
+          "question": "What is the primary core concept in this document?",
+          "answer": "The fundamental principle connecting theoretical foundations to practical implementations.",
+          "tag": "Core Concept"
+        },
+        {
+          "id": 2,
+          "question": "What is Active Recall in study methodology?",
+          "answer": "A learning technique where learners retrieve information from memory rather than passively reviewing notes.",
+          "tag": "Study Strategy"
+        },
+        {
+          "id": 3,
+          "question": "What is Spaced Repetition?",
+          "answer": "An evidence-based learning technique that reviews material at increasing intervals over time.",
+          "tag": "Memory Science"
+        },
+        {
+          "id": 4,
+          "question": "Why are precise technical definitions crucial?",
+          "answer": "They form the bedrock for resolving complex multiple-choice and conceptual exam problems.",
+          "tag": "Exam Mastery"
+        },
+        {
+          "id": 5,
+          "question": "How should students resolve ambiguous topics?",
+          "answer": "Engage with the interactive smart assistant for step-by-step contextual explanations.",
+          "tag": "AI Assistant"
+        }
+      ]
+    },
+    {
+      "id": "log_mtq1o65w",
+      "studentName": "طالب زائر",
+      "studentEmail": "visitor@student.com",
+      "documentName": "بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf",
+      "fileType": "application/pdf",
+      "date": "2026/9/6 ٧:٤٧:٠٥ م",
+      "timestamp": 1788713225780,
+      "excerpt": " 🌟 Smart Academic Student Summary: بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة\n\n 💡 1. Core Essence in Brief (TL;DR)\n> The Big Picture: This document breaks ...",
+      "summary": "### 🌟 Smart Academic Student Summary: بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة\n\n### 💡 1. Core Essence in Brief (TL;DR)\n> **The Big Picture:** This document breaks down the fundamental mechanisms and principles of the topic into clear, actionable study units. It equips students with the exact concepts tested on university and professional exams.\n\n---\n\n### 🧠 2. Core Concepts Explained Simply (With Real-world Analogies)\n1. **The Fundamental Concept:** Think of this foundational theory as the \"blueprint\" of the entire system—everything else builds directly on top of it.\n2. **Applied Mechanisms (System Architecture):** How theoretical definitions operate in practical scenarios without unnecessary friction or ambiguity.\n3. **Core Interconnections:** Recognizing how input factors directly influence output results and performance indicators.\n\n---\n\n### 📑 3. Step-by-Step Breakdown & Pillars\n- **Step 1: Baseline Understanding:** Master the technical vocabulary and essential axioms highlighted in the Flashcards.\n- **Step 2: Methodological Analysis:** Contrast related approaches, identify trade-offs, and map out each phase systematically.\n- **Step 3: Verification & Execution:** Validate conclusions using active problem solving and quantitative evaluation.\n\n---\n\n### ⚠️ 4. Common Exam Traps & Watch-Out Points\n> ⚠️ **Watch Out for Trick Questions:** Examiners frequently invert causal relationships or confuse closely related terms. Always distinguish primary causes from secondary side effects when answering multiple choice questions.\n\n---\n\n### 🚀 5. Golden 3-Minute Quick Exam Review\n1. **Anchor Rule:** Every theoretical framework has specific boundary conditions—memorize when it applies and when it does not.\n2. **Key Terminology:** Active recall of terms yields up to 80% higher retention compared to passive reading.\n3. **Self-Testing:** Work through the 5 practice MCQs and review the explanation for each question to confirm complete mastery.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary academic focus of (بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf)?",
+          "options": [
+            "Systematic analysis of core academic concepts and their practical applications",
+            "A collection of unrelated historical trivia",
+            "Commercial advertisements without context",
+            "Off-topic exploratory notes"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "The document fundamentally establishes a rigorous theoretical framework with actionable practical insights."
+        },
+        {
+          "id": 2,
+          "question": "How can a student best utilize this summary to achieve top grades?",
+          "options": [
+            "A single passive read-through right before the exam",
+            "Combining structured summary review with active recall via the question bank and flashcards",
+            "Ignoring practice questions and relying on rote memorization",
+            "Only reviewing on the morning of the exam"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Spaced repetition combined with active retrieval practice is scientifically proven to yield maximum academic retention."
+        },
+        {
+          "id": 3,
+          "question": "What is the core benefit of the interactive Flashcards?",
+          "options": [
+            "Stimulating active memory recall and reinforcing definitions in minutes",
+            "Unnecessarily increasing study time",
+            "Replacing the full textbook entirely",
+            "Decreasing concentration"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Flashcards target active recall and strengthen neural pathways for fast term retrieval."
+        },
+        {
+          "id": 4,
+          "question": "Why is server-side AI processing critical for academic platforms?",
+          "options": [
+            "It protects API credentials and user document data within a secure cloud sandbox",
+            "It requires complex local software installations",
+            "It prevents document analysis",
+            "It slows down user access"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "Server-side architecture prevents credential leakage in browser DevTools and ensures secure data handling."
+        },
+        {
+          "id": 5,
+          "question": "What is the recommended next step after completing the quiz?",
+          "options": [
+            "Use the interactive AI Chat assistant to ask follow-up questions on difficult sections",
+            "Close the browser and forget the material",
+            "Re-upload the document repeatedly without reading",
+            "Ignore incorrect answer explanations"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "The smart chat assistant provides immediate clarification on nuanced concepts."
+        }
+      ],
+      "flashcards": [
+        {
+          "id": 1,
+          "question": "What is the primary core concept in this document?",
+          "answer": "The fundamental principle connecting theoretical foundations to practical implementations.",
+          "tag": "Core Concept"
+        },
+        {
+          "id": 2,
+          "question": "What is Active Recall in study methodology?",
+          "answer": "A learning technique where learners retrieve information from memory rather than passively reviewing notes.",
+          "tag": "Study Strategy"
+        },
+        {
+          "id": 3,
+          "question": "What is Spaced Repetition?",
+          "answer": "An evidence-based learning technique that reviews material at increasing intervals over time.",
+          "tag": "Memory Science"
+        },
+        {
+          "id": 4,
+          "question": "Why are precise technical definitions crucial?",
+          "answer": "They form the bedrock for resolving complex multiple-choice and conceptual exam problems.",
+          "tag": "Exam Mastery"
+        },
+        {
+          "id": 5,
+          "question": "How should students resolve ambiguous topics?",
+          "answer": "Engage with the interactive smart assistant for step-by-step contextual explanations.",
+          "tag": "AI Assistant"
+        }
+      ]
+    },
+    {
+      "id": "log_mtq1e5b8",
+      "studentName": "طالب زائر",
+      "studentEmail": "visitor@student.com",
+      "documentName": "بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf",
+      "fileType": "application/pdf",
+      "date": "2026/9/6 ٧:٣٩:١٨ م",
+      "timestamp": 1788712758116,
+      "excerpt": " 🌟 التلخيص الأكاديمي الذكي الفائق: بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة\n\n 💡 1. زبدة الموضوع بكلمتين (TL;DR)\n> الخلاصة الفورية: يركز هذا الملف على تفك...",
+      "summary": "### 🌟 التلخيص الأكاديمي الذكي الفائق: بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة\n\n### 💡 1. زبدة الموضوع بكلمتين (TL;DR)\n> **الخلاصة الفورية:** يركز هذا الملف على تفكيك المفاهيم والمبادئ الأساسية للمادة بأسلوب مباشر، بهدف تمكين الطالب من استيعاب صلب الدرس في دقائق وحصد الدرجات الكاملة في أسئلة الامتحان.\n\n---\n\n### 🧠 2. شرح المفاهيم الجوهرية بالتبسيط والتشبيهات الذكية\n1. **المفهوم المحوري (Core Concept):** يمكنك تخيل هذه الفكرة كالمحرك الأساسي للسيارة؛ فإذا فهمت طريقة عمله وعلاقته بباقي الأجزاء، ستتمكن من حل أي مسألة أو سؤال مهما غيّر الدكتور في صياغته.\n2. **آلية العمل والتطبيق (Mechanism & Workflow):** كيف تنتقل الخطوات النظرية إلى واقع عملي وتطبيقي ملموس ومباشر.\n3. **العلاقات والترابط (Core Dependencies):** كيفية تأثير كل مدخل على النتيجة النهائية وتفادي الالتباس بين السبب والنتيجة.\n\n---\n\n### 📑 3. المحاور والخطوات التفصيلية (خطوة بخطوة)\n- **المحور الأول (الأساس النظري):** مراجعة المصطلحات والتعريفات التخصصية الواردة في بطاقات الاستذكار (Flashcards).\n- **المحور الثاني (التحليل المقارن):** التمييز بين الحالات المختلفة وتحديد الفروقات الدقيقة بين المتغيرات.\n- **المحور الثالث (حل المسائل والتطبيق):** القوانين والخطوات المتسلسلة المعتمدة في الإجابة النموذجية.\n\n---\n\n### ⚠️ 4. تريكات امتحانية وأخطاء شائعة احذر منها (Exam Traps)\n> ⚠️ **احذر هذا الفخ في الامتحان:** كثير من الطلاب يخلطون بين التعريفات المتقاربة أو يعكسون اتجاه التأثير. ركز دائماً على الكلمات المفتاحية (Keywords) الدقيقة لكل مفهوم.\n\n---\n\n### 🚀 5. كبسولة المذاكرة الذهبية (مراجعة الـ 3 دقائق ليلة الامتحان)\n1. **القاعدة الأولى:** لا تحفظ دون فهم؛ استوعب المنطق خلف الفكرة أولاً.\n2. **الاسترجاع النشط:** حل بنك الأسئلة الـ 5 المرفق فوراً بعد القراءة للتأكد من ثبات المعلومات في الذاكرة طويلة المدى.\n3. **المصطلحات الحاسمة:** استخدم بطاقات الاستذكار لمراجعة الكلمات المفتاحية والرموز قبل دخول قاعة الامتحان مباشرة.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "ما هو المحور الأساسي الذي يركز عليه مستند (بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf)؟",
+          "options": [
+            "تحليل المفاهيم الأكاديمية وتطبيقاتها العلمية بشكل منهجي",
+            "سرد معلومات تاريخية غير مرتبطة بالموضوع",
+            "عرض إعلانات تجارية بدون سياق",
+            "دراسة موضوعات جانبية غير تخصصية"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "المستند يركز بشكل جوهري على البنية المنهجية للمادة العلمية وتطبيقها لتعميق فهم الطالب."
+        },
+        {
+          "id": 2,
+          "question": "كيف يمكن للطالب استغلال هذا الملخص لتحقيق أعلى الدرجات؟",
+          "options": [
+            "قراءة سريعة لمرة واحدة فقط دون مراجعة",
+            "الدمج بين قراءة التلخيص وحل بنك الأسئلة التفاعلي مع مراجعة البطاقات",
+            "تجاهل الأسئلة والتركيز على الحفظ الصم",
+            "الانتظار حتى ليلة الامتحان فقط"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "التكرار المتباعد والاختبار الذاتي الفوري يعتبران الاستراتيجية الأكثر كفاءة وفق أبحاث التعلم."
+        },
+        {
+          "id": 3,
+          "question": "ما هي الفائدة الكبرى للبطاقات التعليمية (Flashcards)؟",
+          "options": [
+            "تفعيل الاسترجاع النشط للذاكرة وترسيخ المصطلحات",
+            "زيادة وقت المذاكرة بلا فائدة",
+            "استبدال المحاضرات الأصلية بالكامل",
+            "تقليل التركيز"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "البطاقات تنشط الذاكرة وتسهل مراجعة النقاط الصعبة والتعريفات في دقائق وجيزة."
+        },
+        {
+          "id": 4,
+          "question": "ما الذي يميز معالجة الوثائق في منصة تلخيص المهندس؟",
+          "options": [
+            "سرعة التحليل واستخراج الأفكار وبنوك الأسئلة بأعلى درجات الأمان وحماية البيانات",
+            "الحاجة لبرامج إضافية معقدة",
+            "عدم دعم ملفات الـ PDF أو الصور",
+            "كشف بيانات المستخدمين للعامة"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "تعتمد المنصة على معالجة سحابية آمنة تحمي المفاتيح والملفات وتوفر مخرجات دراسية متكاملة فوراً."
+        },
+        {
+          "id": 5,
+          "question": "ما الخطوة التالية بعد إتمام مراجعة التلخيص وبنك الأسئلة؟",
+          "options": [
+            "استخدام نافذة المحادثة الذكية لطرح أي استفسارات متبقية على المحاضرة",
+            "إغلاق الموقع ونسيان المادة",
+            "إعادة رفع نفس الملف بدون قراءة",
+            "عدم التحقق من الإجابات"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "تتيح المحادثة الذكية الاستفسار عن أي جزئية غامضة والحصول على إجابات تفصيلية فورية."
+        }
+      ],
+      "flashcards": [
+        {
+          "id": 1,
+          "question": "ما هو المفهوم الجوهري في هذا المستند؟",
+          "answer": "المبدأ الأساسي الذي يربط بين النظرية العلمية والتطبيق العملي للمحتوى المقدم.",
+          "tag": "مفهوم أساسي"
+        },
+        {
+          "id": 2,
+          "question": "ما هي طريقة الاستذكار الفعال الموصى بها؟",
+          "answer": "الدمج بين الاسترجاع النشط (Active Recall) وحل الأسئلة المتعددة والتكرار المتباعد.",
+          "tag": "طرق دراسية"
+        },
+        {
+          "id": 3,
+          "question": "ما أهمية فهم المصطلحات التخصصية؟",
+          "answer": "بناء أرضية صلبة للإجابة عن الأسئلة المقالية والخيارات الدقيقة في الامتحانات.",
+          "tag": "مصطلحات"
+        },
+        {
+          "id": 4,
+          "question": "كيف يتم قياس مدى استيعاب المحاضرة؟",
+          "answer": "عبر تحقيق نسبة إجابات صحيحة تتجاوز 80% في بنك الأسئلة التفاعلي من المحاولة الأولى.",
+          "tag": "تقييم ذاتي"
+        },
+        {
+          "id": 5,
+          "question": "ما هي ميزة المحادثة الذكية مع المستند؟",
+          "answer": "الحصول على توضيحات فورية ومبسطة لأي فقرة أو معادلة لم تتضح للطالب أثناء القراءة.",
+          "tag": "مساعد ذكي"
+        }
+      ]
+    },
+    {
+      "id": "log_1",
+      "studentName": "طالب زائر",
+      "studentEmail": "almalk1233217@gmail.com",
+      "documentName": "بحث-عن-الذكاء-الاصطناعي-نسخة-مختصرة.pdf",
+      "fileType": "application/pdf",
+      "date": "2026/9/6 5:56:47 م",
+      "timestamp": 1788707030566,
+      "excerpt": "أهلاً بك أيها الطالب المجتهد، بصفتي مساعدك الأكاديمي... يتناول هذا المستند تقنيات الذكاء الاصطناعي التوليدي وتطبيقاته الحديثة في التعليم.",
+      "summary": "### 🌟 ملخص شامل: بحوث وتطبيقات الذكاء الاصطناعي الحديثة\n\n#### 📌 الفكرة المحورية للمحاضرة\nيناقش هذا المستند الثورة التقنية في خوارزميات الذكاء الاصطناعي التوليدي، وكيفية توظيف النماذج اللغوية الكبيرة (LLMs) والشبكات العصبية العميقة في تسريع الفهم الأكاديمي وتطوير الأنظمة الذكية.\n\n---\n\n#### 💡 المفاهيم والركائز الأساسية\n1. **تعلم الآلة (Machine Learning):** الأساس الرياضي لتطوير خوارزميات قادرة على استنتاج الأنماط من البيانات دون برمجة صريحة.\n2. **الشبكات العصبية الالتفافية (CNN):** متخصصة في معالجة الصور واستخراج الخصائص البصرية بدقة متناهية.\n3. **معمارية المحولات (Transformers):** البنية الهيكلية لجميع النماذج اللغوية الحديثة القائمة على آليات الانتباه الذاتي (Self-Attention).\n4. **أمان البيانات وحماية النماذج:** عزل المفاتيح ومعالجة البيانات في بيئة خادم آمنة (Server-Side Execution) لضمان الخصوصية وسرية الأنظمة.\n\n---\n\n#### 🎯 نصائح الاستذكار الأكاديمي السريع\n- ركز على فهم الفروقات الدقيقة بين التعلم الخاضع للإشراف (Supervised) والتعلم غير الخاضع للإشراف (Unsupervised).\n- تدرب على رسم المخطط التدفقي لمعمارية Transformers لترسيخ الفهم للامتحان النهائي.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "ما هي التقنية التي تعتمد عليها النماذج اللغوية الحديثة بشكل رئيسي؟",
+          "options": [
+            "خوارزمية الانحدار الخطي",
+            "معمارية المحولات (Transformers) مع الانتباه الذاتي",
+            "جداول البيانات البسيطة",
+            "أشجار القرار الثنائية فقط"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "تعتمد النماذج الحديثة مثل Gemini و GPT على معمارية Transformer وآلية الانتباه الذاتي لمعالجة النصوص بكفاءة وسرعة فائقة."
+        },
+        {
+          "id": 2,
+          "question": "لماذا تعتبر معالجة طلبات الذكاء الاصطناعي عبر الخادم (Server-Side) أكثر أماناً؟",
+          "options": [
+            "لأنها تجعل الموقع بطيئاً فقط",
+            "لأنها تحمي مفاتيح الـ API والبيانات الحساسة من الظهور في متصفح الزائر",
+            "لأنها لا تتطلب اتصالاً بالإنترنت",
+            "لا يوجد أي فرق أمني إطلاقاً"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "عزل مفاتيح الـ API في جهة الخادم يمنع أي متطفل أو زائر من استخراج المفتاح من أدوات فحص العناصر (DevTools) في المتصفح."
+        },
+        {
+          "id": 3,
+          "question": "ما هو الدور الجوهري للتعلم العميق (Deep Learning)؟",
+          "options": [
+            "حفظ النصوص دون فهم",
+            "محاكاة الشبكات العصبية الحيوية للتعامل مع البيانات المعقدة",
+            "تسريع المعالجات المادية فقط",
+            "طباعة المستندات"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "التعلم العميق يستند إلى طبقات متعددة من العقد العصبية الاصطناعية لتمثيل الأنماط الرياضية واللغوية المعقدة."
+        },
+        {
+          "id": 4,
+          "question": "ما هي ميزة المعالجة متعددة الوسائط (Multimodal) في الذكاء الاصطناعي؟",
+          "options": [
+            "فهم النصوص والصور والملفات الصوتية معاً في سياق واحد",
+            "قراءة ملفات PDF فقط",
+            "تقليل دقة النتائج",
+            "إلغاء الحاجة للخوارزميات"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "النماذج متعددة الوسائط قادرة على تحليل النصوص، المستندات الممسوحة، الرسوم البيانية، والوسائط المتنوعة واستنباط الأفكار منها بدقة."
+        },
+        {
+          "id": 5,
+          "question": "كيف يسهم بنك الأسئلة التفاعلي في تحسين استيعاب الطالب؟",
+          "options": [
+            "بتكرار نفس السؤال بدون إجابة",
+            "بتعزيز الاسترجاع النشط (Active Recall) وتقديم التغذية الراجعة الفورية",
+            "بحفظ الإجابات الخاطئة فقط",
+            "بزيادة مدة المحاضرة"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "الاسترجاع النشط الفوري يثبت المعلومات في الذاكرة طويلة المدى ويوضح نقاط القوة والضعف للطالب مباشرة."
+        }
+      ],
+      "flashcards": [
+        {
+          "id": 1,
+          "question": "ما المقصود بـ Machine Learning؟",
+          "answer": "علم برمجة الحواسيب لتمكينها من التعلم واستنتاج الأنماط مباشرة من البيانات السابقة دون تعليمات مسبقة صارمة.",
+          "tag": "مفهوم أساسي"
+        },
+        {
+          "id": 2,
+          "question": "ما هي آلية Self-Attention في Transformers؟",
+          "answer": "آلية رياضية تمكن النموذج من تقييم وزن وأهمية كل كلمة في الجملة بالنسبة للكلمات الأخرى لفهم السياق العام بدقة.",
+          "tag": "معمارية النماذج"
+        },
+        {
+          "id": 3,
+          "question": "ما الفرق بين Supervised و Unsupervised Learning؟",
+          "answer": "التعلم الخاضع للإشراف يستخدم بيانات موسومة ومصنفة مسبقاً، بينما غير الخاضع للإشراف يكتشف الأنماط والتجمعات من بيانات خام غير مصنفة.",
+          "tag": "مقارنة"
+        },
+        {
+          "id": 4,
+          "question": "ما أهمية تأمين مفتاح الـ API على مستوى الخادم؟",
+          "answer": "منع سرقة رصيد الحساب، وحماية النطاق من الاستغلال، والامتثال لأعلى معايير الأمن السيبراني للأعمال.",
+          "tag": "الأمان السيبراني"
+        },
+        {
+          "id": 5,
+          "question": "كيف يعمل الـ OCR في تحليل المحاضرات المصورة؟",
+          "answer": "يقوم بالتعرف الضوئي على الحروف والأشكال وتحويل الصور والمخططات إلى نصوص رقمية قابلة للتحليل والتلخيص.",
+          "tag": "معالجة الوثائق"
+        }
+      ]
+    },
+    {
+      "id": "log_2",
+      "studentName": "طالب زائر",
+      "studentEmail": "almalk1233217@gmail.com",
+      "documentName": "أذكار الصباح والمساء صفحة واحدة.pdf",
+      "fileType": "application/pdf",
+      "date": "2026/9/6 4:28:01 م",
+      "timestamp": 1788704030566,
+      "excerpt": "بناءً على طلبك، قمت بتحليل المحتوى المقدم... يحتوي المستند على المأثورات والأدعية المقررة صباحاً ومساءً مع الشروح اللغوية.",
+      "summary": "### 🌟 ملخص المستند: الأذكار والأدعية وأثرها الإيماني\nيتناول هذا المستند المأثور من أذكار الصباح والمساء، موضحاً أثر الاستمرار عليها في طمأنينة النفس والحفظ الرباني.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "ما هو الوقت الفاضل لقراءة أذكار الصباح؟",
+          "options": [
+            "بعد صلاة الفجر وحتى شروق الشمس",
+            "منتصف الليل",
+            "بعد المغرب مباشرة",
+            "في أي وقت بدون ترتيب"
+          ],
+          "correctAnswerIndex": 0,
+          "explanation": "الوقت المستحب والأفضل لقراءة أذكار الصباح يبدأ من بعد طلوع الفجر الصادق ويمتد إلى طلوع الشمس."
+        }
+      ],
+      "flashcards": [
+        {
+          "id": 1,
+          "question": "ما أثر المحافظة على الأذكار اليومية؟",
+          "answer": "راحة القلب، انشراح الصدر، والحفظ من كل سوء بإذن الله تعالى.",
+          "tag": "معاني وأثر"
+        }
+      ]
+    }
+  ],
+  "activeOtp": {
+    "code": "156925",
+    "expiresAt": 1788733791311
+  },
+  "adminEmail": "aboode36955@gmail.com"
+}
