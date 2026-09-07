@@ -94,7 +94,7 @@ function saveStore(data: typeof defaultStore) {
   }
 }
 
-// ================= 1. إدارة تدوير المفاتيح والـ Fallback =================
+// ================= 1. إدارة تدوير مفاتيح Gemini والـ Groq Fallback =================
 
 function getGeminiKeys(): string[] {
   const keys = [
@@ -119,10 +119,11 @@ function getNextGeminiClient(): { ai: GoogleGenAI; keyIndex: number } | null {
   return { ai: new GoogleGenAI({ apiKey: key }), keyIndex: usedIndex };
 }
 
-async function callGrokFallback(prompt: string, systemPrompt?: string): Promise<string> {
-  const grokKey = process.env.GROK_API_KEY;
-  if (!grokKey) {
-    throw new Error('مفتاح GROK_API_KEY غير متوفر في متغيرات البيئة كبديل احتياطي.');
+// دالة استدعاء GroqCloud كبديل احترافي وسريع جداً
+async function callGroqFallback(prompt: string, systemPrompt?: string): Promise<string> {
+  const groqKey = process.env.GROQ_API_KEY;
+  if (!groqKey) {
+    throw new Error('مفتاح GROQ_API_KEY غير متوفر في متغيرات البيئة كبديل احتياطي.');
   }
 
   const messages = [];
@@ -131,22 +132,23 @@ async function callGrokFallback(prompt: string, systemPrompt?: string): Promise<
   }
   messages.push({ role: 'user', content: prompt });
 
-  const response = await fetch('https://api.x.ai/v1/chat/completions', {
+  const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': `Bearer ${grokKey}`,
+      'Authorization': `Bearer ${groqKey}`,
     },
     body: JSON.stringify({
-      model: 'grok-beta',
+      model: 'llama-3.3-70b-versatile',
       messages,
       temperature: 0.3,
+      response_format: { type: 'json_object' }
     }),
   });
 
   if (!response.ok) {
     const errText = await response.text();
-    throw new Error(`فشل استدعاء Grok API (${response.status}): ${errText}`);
+    throw new Error(`فشل استدعاء Groq API (${response.status}): ${errText}`);
   }
 
   const data = await response.json();
@@ -162,6 +164,7 @@ async function generateContentWithRotation(params: {
   const geminiKeys = getGeminiKeys();
   let lastError: any = null;
 
+  // المحاولة الأولى: عبر مفاتيح Gemini المتاحة
   if (geminiKeys.length > 0) {
     for (let i = 0; i < geminiKeys.length; i++) {
       const clientObj = getNextGeminiClient();
@@ -192,16 +195,17 @@ async function generateContentWithRotation(params: {
     }
   }
 
-  console.log('⚠️ تم استنفاد مفاتيح Gemini، جارٍ التحويل التلقائي لـ Grok AI...');
+  // المحاولة الثانية: تحويل تلقائي وسريع لـ GroqCloud
+  console.log('⚠️ تم استنفاد مفاتيح Gemini، جارٍ التحويل التلقائي لـ GroqCloud API...');
   try {
-    const grokResult = await callGrokFallback(params.promptText, params.systemInstruction);
-    if (grokResult) return grokResult;
-  } catch (grokErr: any) {
-    console.error('فشل استدعاء Grok AI كبديل:', grokErr?.message || grokErr);
-    lastError = grokErr;
+    const groqResult = await callGroqFallback(params.promptText, params.systemInstruction);
+    if (groqResult) return groqResult;
+  } catch (groqErr: any) {
+    console.error('فشل استدعاء Groq API كبديل:', groqErr?.message || groqErr);
+    lastError = groqErr;
   }
 
-  throw new Error(`فشلت جميع محاولات الاستدعاء (Gemini & Grok): ${lastError?.message || lastError}`);
+  throw new Error(`فشلت جميع محاولات الاستدعاء (Gemini & Groq): ${lastError?.message || lastError}`);
 }
 
 // ================= API ROUTES =================
@@ -213,15 +217,15 @@ app.get('/api/config', (req, res) => {
 
 app.get('/api/ai/status', (req, res) => {
   const geminiKeys = getGeminiKeys();
-  const hasGrok = !!process.env.GROK_API_KEY;
+  const hasGroq = !!process.env.GROQ_API_KEY;
 
   res.json({
     status: 'active',
     geminiKeysCount: geminiKeys.length,
-    hasGrokFallback: hasGrok,
+    hasGroqFallback: hasGroq,
     proxyMode: 'Server-Side Proxy',
     keySecured: true,
-    details: `يتم تدوير ${geminiKeys.length} مفتاح Gemini تلقائياً مع دمج Grok AI كخيار احتياطي عند ضغط الخدمة.`,
+    details: `يتم تدوير ${geminiKeys.length} مفتاح Gemini تلقائياً مع دمج GroqCloud كبديل سيرفر أوتوماتيكي.`,
   });
 });
 
@@ -319,7 +323,7 @@ ${langInstruction}
       const cleanedJson = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
       generatedData = JSON.parse(cleanedJson);
     } catch (apiErr) {
-      console.warn('تعذر المعالجة عبر Gemini/Grok API، جارٍ استخدام الاستجابة التلقائية المضمونة:', apiErr);
+      console.warn('تعذر المعالجة عبر Gemini/Groq API، جارٍ استخدام الاستجابة التلقائية المضمونة:', apiErr);
     }
 
     if (!generatedData || !generatedData.summary) {
