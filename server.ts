@@ -419,5 +419,4 @@ if (process.env.NODE_ENV !== 'production' && !process.env.VERCEL) {
   startLocalServer();
 }
 
-// تصدير التطبيق متوافق مع Vercel Serverless
 export default app;
