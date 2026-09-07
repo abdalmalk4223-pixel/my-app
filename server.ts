@@ -14,10 +14,6 @@ app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 const DATA_DIR = path.join(process.cwd(), 'data');
 const STORE_FILE = path.join(DATA_DIR, 'store.json');
 
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
-}
-
 // Initial default data
 const defaultStore = {
   adminPassword: 'admin',
@@ -80,27 +76,26 @@ function getStore() {
       return storeCache;
     }
   } catch (err) {
-    console.error('Error reading store file:', err);
+    // التجاوز عند البيئة غير المتاحة للكتابة على القرص مثل Vercel Serverless
   }
   storeCache = JSON.parse(JSON.stringify(defaultStore));
-  try {
-    fs.writeFileSync(STORE_FILE, JSON.stringify(defaultStore, null, 2));
-  } catch (e) {}
   return storeCache;
 }
 
 function saveStore(data: typeof defaultStore) {
   storeCache = data;
   try {
+    if (!fs.existsSync(DATA_DIR)) {
+      fs.mkdirSync(DATA_DIR, { recursive: true });
+    }
     fs.writeFileSync(STORE_FILE, JSON.stringify(data, null, 2));
   } catch (err) {
-    console.error('Error writing store file:', err);
+    // تجاهل خطأ الكتابة محلياً على سيرفر Vercel
   }
 }
 
 // ================= 1. إدارة تدوير المفاتيح والـ Fallback =================
 
-// تجميع مفاتيح Gemini المتاحة من متغيرات البيئة
 function getGeminiKeys(): string[] {
   const keys = [
     process.env.GEMINI_API_KEY_1 || process.env.GEMINI_API_KEY,
@@ -124,7 +119,6 @@ function getNextGeminiClient(): { ai: GoogleGenAI; keyIndex: number } | null {
   return { ai: new GoogleGenAI({ apiKey: key }), keyIndex: usedIndex };
 }
 
-// دالة Grok AI كبديل احتياطي أخير عند تعثر كل مفاتيح Gemini
 async function callGrokFallback(prompt: string, systemPrompt?: string): Promise<string> {
   const grokKey = process.env.GROK_API_KEY;
   if (!grokKey) {
@@ -159,7 +153,6 @@ async function callGrokFallback(prompt: string, systemPrompt?: string): Promise<
   return data.choices?.[0]?.message?.content || '';
 }
 
-// المحرك الرئيسي لتوليد المحتوى مع تدوير المفاتيح والتحويل إلى Grok
 async function generateContentWithRotation(params: {
   promptText: string;
   contents: any;
@@ -169,7 +162,6 @@ async function generateContentWithRotation(params: {
   const geminiKeys = getGeminiKeys();
   let lastError: any = null;
 
-  // 1. تجربة مفاتيح Gemini المتاحة بالتداول
   if (geminiKeys.length > 0) {
     for (let i = 0; i < geminiKeys.length; i++) {
       const clientObj = getNextGeminiClient();
@@ -200,7 +192,6 @@ async function generateContentWithRotation(params: {
     }
   }
 
-  // 2. التحويل التلقائي لـ Grok AI في حال تعثر جميع مفاتيح Gemini
   console.log('⚠️ تم استنفاد مفاتيح Gemini، جارٍ التحويل التلقائي لـ Grok AI...');
   try {
     const grokResult = await callGrokFallback(params.promptText, params.systemInstruction);
@@ -246,7 +237,6 @@ app.post('/api/admin/login', (req, res) => {
   return res.json({ success: true, token, message: 'تم تسجيل الدخول بنجاح' });
 });
 
-// معالجة المستندات بـ Gemini مع Grok Fallback
 app.post('/api/ai/process-document', async (req, res) => {
   try {
     const {
@@ -383,7 +373,6 @@ ${langInstruction}
   }
 });
 
-// المحادثة التفاعلية مع المساعد الذكي
 app.post('/api/ai/chat', async (req, res) => {
   try {
     const { message, documentSummary, history = [] } = req.body;
@@ -415,24 +404,20 @@ app.post('/api/ai/chat', async (req, res) => {
   }
 });
 
-async function startServer() {
-  if (process.env.NODE_ENV !== 'production') {
+// التشغيل المحلي فقط عند بيئة التطوير
+if (process.env.NODE_ENV !== 'production' && !process.env.VERCEL) {
+  async function startLocalServer() {
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: 'spa',
     });
     app.use(vite.middlewares);
-  } else {
-    const distPath = path.join(process.cwd(), 'dist');
-    app.use(express.static(distPath));
-    app.get('*', (req, res) => {
-      res.sendFile(path.join(distPath, 'index.html'));
+    app.listen(PORT, '0.0.0.0', () => {
+      console.log(`Server running locally on http://localhost:${PORT}`);
     });
   }
-
-  app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Server running securely on http://localhost:${PORT}`);
-  });
+  startLocalServer();
 }
 
-startServer();
+// تصدير التطبيق متوافق مع Vercel Serverless
+export default app;
